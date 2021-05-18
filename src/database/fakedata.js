@@ -14,7 +14,7 @@ module.exports = [
 		open_on_weekends: "1",
 	},
 	{
-		id: 1,
+		id: 2,
 		lat: "-27.222633",
 		lng: "-49.6555874",
 		name: "Lar dos meninos",

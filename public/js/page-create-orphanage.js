@@ -5,7 +5,7 @@ const map = L.map("mapid").setView([-22.7236692, -47.4308622], 12);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
 
 const icon = L.icon({
-	iconUrl: "./assets/images/map-marker.svg",
+	iconUrl: "/images/map-marker.svg",
 	iconSize: [58, 58],
 	iconAnchor: [29, 68],
 });
@@ -83,3 +83,16 @@ function toggleSelect(event) {
 
 
 }
+
+// function validate(event) {
+// 	const inputLat = document.querySelector('.input-lat');
+// 	const inputLng = document.querySelector('.input-lng');
+
+// 	if (inputLat && inputLng == true) {
+// 		 event.preventDefault()
+// 		 alert('Form nao preenchido')
+// 	} else {
+// 		alert('Form foi preenchido')
+// 	}
+// }
+
